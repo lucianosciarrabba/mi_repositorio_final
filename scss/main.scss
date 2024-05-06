@@ -14,74 +14,13 @@ font-family: "Lato", sans-serif;
     
     
 }
+@import "./sections/header";
+
 body {
     display: flex;
     flex-wrap: wrap;
     background-color: rgb(121, 106, 84);
-
-}
-
-/*----- Nav -------*/
-nav {
-    width: 100%;
-    flex-direction: row;
-    align-items: flex-end;
-    justify-content: space-between;
-    background-color: #241503;
-    padding-bottom: 5px;
-
-    .container-fluid {
-        background-color: #241503;
-        display: inline-block;
-        font-weight: bold;
-        text-decoration: none;
-        text-transform: uppercase;
-
-    }
-
-    .logo {
-        height: 90px;
-    }
-
-    .navbar-nav a {
-        color: rgb(243, 214, 190);
-        font-weight: bold;
-        text-decoration: none;
-        text-transform: uppercase;
-    }
-
-    .navbar-nav a:hover {
-        color: rgb(243, 214, 190);
-        font-weight: bold;
-        text-decoration: none;
-        text-transform: uppercase;
-        background-color: #5a3d1a;
-    }
-
-    li {
-        display: inline-block;
-        padding: 10px;
-        background-color: #241503;
-
-        a {
-            color: rgb(243, 214, 190);
-            padding: 7px;
-            font-weight: bold;
-            text-decoration: none;
-            text-transform: uppercase;
-
-        }
-
-    }
-}
-
-nav li a:hover {
-    color: rgb(243, 214, 190);
-    font-weight: bold;
-    text-decoration: none;
-    text-transform: uppercase;
-    background-color: #5a3d1a;
-
+    
 }
 
 /*---- Main General ----*/

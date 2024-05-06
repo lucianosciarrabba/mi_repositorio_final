@@ -10,11 +10,6 @@ font-family: "Lato", sans-serif;
   padding: 0;
   font-family: "Lato", sans-serif; }
 
-body {
-  display: flex;
-  flex-wrap: wrap;
-  background-color: #796a54; }
-
 /*----- Nav -------*/
 nav {
   width: 100%;
@@ -59,6 +54,11 @@ nav li a:hover {
   text-decoration: none;
   text-transform: uppercase;
   background-color: #5a3d1a; }
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #796a54; }
 
 /*---- Main General ----*/
 main {
