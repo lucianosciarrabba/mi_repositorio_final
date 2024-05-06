@@ -65,21 +65,6 @@ main {
   padding: 20px;
   font-family: "STIX Two Text", serif;
   background-color: #796a54; }
-  main ul {
-    text-align: right; }
-  main .servicios {
-    padding: 50px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center; }
-    main .servicios h4 {
-      padding: 30px; }
-  main .iconos {
-    border-radius: 15px;
-    box-shadow: 3px 3px 5px #f3d6be; }
-  main .iconos:hover {
-    border-radius: 15px;
-    box-shadow: 4px 4px 7px #f3d6be; }
 
 .main-index {
   display: grid;
@@ -87,38 +72,44 @@ main {
   margin: 0px;
   text-align: center;
   color: #f3d6be; }
-
-.historia {
-  font-style: italic;
-  text-align: center; }
+  .main-index ul {
+    text-align: right; }
+  .main-index .servicios {
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; }
+    .main-index .servicios h4 {
+      padding: 30px; }
+  .main-index .iconos {
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px #f3d6be; }
+  .main-index .iconos:hover {
+    border-radius: 15px;
+    box-shadow: 4px 4px 7px #f3d6be; }
 
 .main-historia {
   padding: 20px;
   text-align: center;
   color: #f3d6be;
   width: 100%; }
-
-.titulo {
-  text-decoration: underline; }
-
-.bajada {
-  margin: 10px;
-  font-size: 1rem; }
-
-.historia {
-  display: grid;
-  grid-template-columns: repeat(9, 1fr);
-  grid-template-rows: 1fr; }
-
-.texto {
-  grid-area: 1 / 1 / 2 / 5; }
-
-.taller {
-  grid-area: 1 / 5 / 2 / 10; }
-
-.taller {
-  margin-left: 30px;
-  height: 70%; }
+  .main-historia .historia {
+    font-style: italic;
+    text-align: center; }
+  .main-historia .titulo {
+    text-decoration: underline; }
+  .main-historia .bajada {
+    margin: 10px;
+    font-size: 1rem; }
+  .main-historia .historia {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center; }
+  .main-historia .taller {
+    border-radius: 8px;
+    margin-left: 30px;
+    height: 20%; }
 
 .main-servicios {
   text-align: center;
@@ -229,14 +220,14 @@ footer h6 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center; }
-  .historia {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; }
-  .taller {
-    height: 240px;
-    margin: 0px;
-    border-radius: 8px; }
+    .main-historia .historia {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: center; }
+    .main-historia .taller {
+      width: 80%;
+      margin: 0px;
+      border-radius: 8px; }
   .wapp {
     position: fixed;
     top: 90%;

@@ -1,0 +1,27 @@
+.main-form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: rgb(243, 214, 190);
+    width: 100%;
+
+    .formulario {
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+        grid-area: 1 / 1 / 5 / 2;
+
+        h6 {
+            margin: 10px;
+        }
+    }
+
+    .datos {
+        margin: 20px;
+        grid-area: 1 / 2 / 5 / 3;
+    }
+
+    .mapa {
+        grid-area: 5 / 1 / 6 / 3;
+    }
+
+}

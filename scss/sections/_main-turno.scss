@@ -1,0 +1,28 @@
+.main-turno {
+    color: rgb(243, 214, 190);
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: 1fr;
+    width: 100%;
+
+    h5{
+        margin-top: 15px;
+        margin-bottom: 15px;
+
+    }
+
+    .soli-turno {
+        grid-area: 1 / 1 / 2 / 5;
+    }
+
+    .img-turno {
+        grid-area: 1 / 8 / 2 / 7;
+        border-radius: 8px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .soli-turno {
+        margin: 20px;
+    }
+}

@@ -1,0 +1,33 @@
+.main-historia {
+    padding: 20px;
+    text-align: center;
+    color: rgb(243, 214, 190);
+    width: 100%;
+
+    .historia {
+        font-style: italic;
+        text-align: center;
+    }
+
+    .titulo {
+        text-decoration: underline;
+    }
+
+    .bajada {
+        margin: 10px;
+        font-size: 1rem;
+    }
+
+    .historia {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .taller {
+        border-radius: 8px;
+        margin-left: 30px;
+        height: 20%;
+    }
+}
