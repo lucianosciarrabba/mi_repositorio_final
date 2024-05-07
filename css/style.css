@@ -114,6 +114,19 @@ main {
 .main-servicios {
   text-align: center;
   color: #f3d6be; }
+  .main-servicios .serv {
+    display: flex; }
+
+.carousel-indicator {
+  margin: 0; }
+
+.carousel-inner {
+  color: #241503;
+  border-radius: 10px;
+  background-color: antiquewhite;
+  padding: 50px; }
+  .carousel-inner li a {
+    text-align: center; }
 
 .img-trabajos {
   height: 300px;
