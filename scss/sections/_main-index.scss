@@ -1,9 +1,11 @@
 
 .main-index {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    display: flex;
     margin: 0px;
     text-align: center;
+    color: #f3d6be;
+    flex-direction: column;
+    flex-wrap: nowrap;
     color: rgb(243, 214, 190);
     
     ul {

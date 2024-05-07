@@ -1,6 +1,21 @@
 .main-servicios {
     text-align: center;
-    color: rgb(243, 214, 190);}
+    color: rgb(243, 214, 190);
+
+    h2 {
+        margin: 30px;
+        text-decoration: underline;
+        font-weight: bold;
+    }
+    .trabajos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+
+}
 
 .carousel-inner {
     color: #241503;
@@ -9,14 +24,15 @@
     padding: 50px;
 
     li {
-        h3{
-            font-size:x-large;
+        h3 {
+            font-size: x-large;
             text-decoration: underline;
         }
+
         a {
-        text-align: center;
+            text-align: center;
+        }
     }
-}
 }
 
 .img-trabajos {

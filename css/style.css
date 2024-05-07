@@ -69,10 +69,12 @@ main {
   background-color: #796a54; }
 
 .main-index {
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  display: flex;
   margin: 0px;
   text-align: center;
+  color: #f3d6be;
+  flex-direction: column;
+  flex-wrap: nowrap;
   color: #f3d6be; }
   .main-index ul {
     text-align: right; }
@@ -116,6 +118,14 @@ main {
 .main-servicios {
   text-align: center;
   color: #f3d6be; }
+  .main-servicios h2 {
+    margin: 30px;
+    text-decoration: underline;
+    font-weight: bold; }
+  .main-servicios .trabajos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
 
 .carousel-inner {
   color: #241503;
@@ -218,11 +228,26 @@ footer h6 {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap; }
+    .main-servicios h2 {
+      margin: 30px;
+      text-decoration: underline;
+      font-weight: bold; }
+    .main-servicios .trabajos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; }
     .main-servicios li h3 {
       font-size: x-large;
       text-decoration: underline; }
     .main-servicios li a {
       text-align: center; }
+  .servicios {
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap; }
   .main-form {
     display: flex;
     flex-wrap: wrap;
