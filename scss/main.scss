@@ -65,12 +65,16 @@ main {
         flex-direction: column;
         flex-wrap: wrap;
 
-        .serv {
-            display: flex;
-            flex-direction: column;
-            flex-wrap: wrap;
-            margin-bottom: 30px;
+        li {
+            h3{
+                font-size:x-large;
+                text-decoration: underline;
+            }
+            a {
+            text-align: center;
         }
+    }
+
     }
 
     .main-form {
