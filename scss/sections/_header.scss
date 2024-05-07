@@ -7,6 +7,10 @@ nav {
     background-color: #241503;
     padding-bottom: 5px;
 
+    .navbar-collapse{
+        justify-content: flex-end;
+    }
+
     .container-fluid {
         background-color: #241503;
         display: inline-block;

@@ -18,6 +18,8 @@ nav {
   justify-content: space-between;
   background-color: #241503;
   padding-bottom: 5px; }
+  nav .navbar-collapse {
+    justify-content: flex-end; }
   nav .container-fluid {
     background-color: #241503;
     display: inline-block;
@@ -114,17 +116,15 @@ main {
 .main-servicios {
   text-align: center;
   color: #f3d6be; }
-  .main-servicios .serv {
-    display: flex; }
-
-.carousel-indicator {
-  margin: 0; }
 
 .carousel-inner {
   color: #241503;
   border-radius: 10px;
   background-color: antiquewhite;
   padding: 50px; }
+  .carousel-inner li h3 {
+    font-size: x-large;
+    text-decoration: underline; }
   .carousel-inner li a {
     text-align: center; }
 
@@ -214,10 +214,15 @@ footer h6 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center; }
-  .servicios {
+  .main-servicios {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap; }
+    .main-servicios .serv {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      margin-bottom: 30px; }
   .main-form {
     display: flex;
     flex-wrap: wrap;
