@@ -58,6 +58,16 @@ main {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+
+        
+        .servicios {
+            padding: 50px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-direction: column;
+            flex-wrap: nowrap;
+        }
     }
 
     .main-servicios {
@@ -88,15 +98,7 @@ main {
 
         }
 
-    }
-
-    .servicios {
-        padding: 50px;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        flex-direction: column;
-        flex-wrap: nowrap;
+        
     }
 
     .main-form {

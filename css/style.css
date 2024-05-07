@@ -224,6 +224,13 @@ footer h6 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center; }
+    .main-index .servicios {
+      padding: 50px;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-direction: column;
+      flex-wrap: nowrap; }
   .main-servicios {
     display: flex;
     flex-direction: column;
@@ -241,13 +248,6 @@ footer h6 {
       text-decoration: underline; }
     .main-servicios li a {
       text-align: center; }
-  .servicios {
-    padding: 50px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: column;
-    flex-wrap: nowrap; }
   .main-form {
     display: flex;
     flex-wrap: wrap;
