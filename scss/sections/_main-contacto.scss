@@ -1,7 +1,7 @@
 .main-form {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    color: rgb(243, 214, 190);
+    color: $marron;
     width: 100%;
 
     .formulario {

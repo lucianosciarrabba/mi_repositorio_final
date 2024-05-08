@@ -4,7 +4,7 @@ nav {
     flex-direction: row;
     align-items: flex-end;
     justify-content: space-between;
-    background-color: #241503;
+    background-color: $marron;
     padding-bottom: 5px;
 
     .navbar-collapse{
@@ -12,7 +12,7 @@ nav {
     }
 
     .container-fluid {
-        background-color: #241503;
+        background-color: $marron;
         display: inline-block;
         font-weight: bold;
         text-decoration: none;
@@ -25,27 +25,27 @@ nav {
     }
 
     .navbar-nav a {
-        color: rgb(243, 214, 190);
+        color: $crema;
         font-weight: bold;
         text-decoration: none;
         text-transform: uppercase;
     }
 
     .navbar-nav a:hover {
-        color: rgb(243, 214, 190);
+        color: $marron;
         font-weight: bold;
         text-decoration: none;
         text-transform: uppercase;
-        background-color: #5a3d1a;
+        background-color: $crema;
     }
 
     li {
         display: inline-block;
         padding: 10px;
-        background-color: #241503;
+        background-color: $marron;
 
         a {
-            color: rgb(243, 214, 190);
+            color: $crema;
             padding: 7px;
             font-weight: bold;
             text-decoration: none;
@@ -56,12 +56,4 @@ nav {
     }
 }
 
-nav li a:hover {
-    color: rgb(243, 214, 190);
-    font-weight: bold;
-    text-decoration: none;
-    text-transform: uppercase;
-    background-color: #5a3d1a;
-
-}
 

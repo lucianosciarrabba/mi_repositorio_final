@@ -3,18 +3,21 @@
     display: flex;
     margin: 0px;
     text-align: center;
-    color: #f3d6be;
+    color: $marron;
     flex-direction: column;
     flex-wrap: nowrap;
-    color: rgb(243, 214, 190);
+    color: $marron;
+
+
     
     ul {
         text-align: right;
         
     }
     
+
     .servicios {
-        padding: 50px;
+        padding: 30px;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
@@ -26,11 +29,17 @@
     
     .iconos {
         border-radius: 15px;
-        box-shadow: 3px 3px 5px rgb(243, 214, 190);
+        box-shadow: 3px 3px 5px $marron;
     }
     
     .iconos:hover {
         border-radius: 15px;
-        box-shadow: 4px 4px 7px rgb(243, 214, 190);
+        box-shadow: 4px 4px 7px $marron;
+    }
+
+    .carrusel{
+        margin-right: 10%;
+        margin-left: 10%;
+
     }
 }
