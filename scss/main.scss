@@ -63,6 +63,9 @@ main {
         .carrusel{
             margin-right: 5%;
             margin-left: 5%;
+            .carousel-inner{
+                padding: 0;
+            }
     
         }
         .servicios {

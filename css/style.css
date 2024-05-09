@@ -85,8 +85,10 @@ main {
     border-radius: 15px;
     box-shadow: 4px 4px 7px #241503; }
   .main-index .carrusel {
-    margin-right: 10%;
-    margin-left: 10%; }
+    margin-right: 30%;
+    margin-left: 30%; }
+    .main-index .carrusel .carousel-inner {
+      padding: 0; }
 
 .main-historia {
   padding: 20px;
@@ -232,6 +234,8 @@ footer h6 {
     .main-index .carrusel {
       margin-right: 5%;
       margin-left: 5%; }
+      .main-index .carrusel .carousel-inner {
+        padding: 0; }
     .main-index .servicios {
       padding: 30px;
       display: flex;
