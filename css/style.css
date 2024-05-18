@@ -59,7 +59,8 @@ body {
 main {
   padding: 20px;
   font-family: "STIX Two Text", serif;
-  background-color: antiquewhite; }
+  background-color: antiquewhite;
+  min-height: 90vh; }
 
 .main-index {
   display: flex;
@@ -69,6 +70,8 @@ main {
   flex-direction: column;
   flex-wrap: nowrap;
   color: #241503; }
+  .main-index h1, .main-index h3 {
+    padding: 20px; }
   .main-index ul {
     text-align: right; }
   .main-index .servicios {
@@ -94,26 +97,31 @@ main {
   padding: 20px;
   text-align: center;
   color: #241503;
-  width: 100%; }
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center; }
   .main-historia .historia {
     font-style: italic;
-    text-align: center; }
-  .main-historia .titulo {
-    text-decoration: underline; }
-  .main-historia .bajada {
-    margin: 10px;
-    font-size: 1rem; }
-  .main-historia .historia {
+    text-align: center;
+    max-width: 80%;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center; }
+  .main-historia .titulo {
+    text-decoration: underline; }
+  .main-historia .bajada {
+    margin: 10px;
+    font-size: 1rem;
+    max-width: 80%; }
   .main-historia .taller {
     display: flex;
     height: 30%;
     flex-direction: row;
     justify-content: center;
-    flex-wrap: wrap; }
+    flex-wrap: nowrap; }
     .main-historia .taller img {
       border-radius: 8px;
       margin: 10px; }
@@ -163,6 +171,16 @@ main {
   .main-form .datos {
     margin: 20px;
     grid-area: 1 / 2 / 5 / 3; }
+    .main-form .datos .informacion {
+      display: flex;
+      flex-direction: column; }
+      .main-form .datos .informacion .inform {
+        display: flex;
+        flex-direction: row;
+        align-items: center; }
+        .main-form .datos .informacion .inform h3, .main-form .datos .informacion .inform h4 {
+          margin-left: 10px;
+          padding: 10px; }
   .main-form .mapa {
     grid-area: 5 / 1 / 6 / 3; }
 
@@ -171,7 +189,8 @@ main {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: 1fr;
-  width: 100%; }
+  width: 100%;
+  min-height: 80vh; }
   .main-turno h5 {
     margin-top: 15px;
     margin-bottom: 15px; }
@@ -222,7 +241,7 @@ footer {
   align-items: center; }
 
 footer h6 {
-  margin-left: 7px; }
+  margin: 7px; }
 
 /*---- RESPONSIVE ----*/
 /* MOBILE LAST */
@@ -284,7 +303,7 @@ footer h6 {
       flex-wrap: wrap;
       justify-content: center; }
       .main-historia .taller img {
-        height: 40%;
+        height: 30%;
         border-radius: 8px;
         margin: 10px; }
   .wapp {

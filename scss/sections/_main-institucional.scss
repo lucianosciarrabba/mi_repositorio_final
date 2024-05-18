@@ -3,10 +3,19 @@
     text-align: center;
     color: $marron;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
 
     .historia {
         font-style: italic;
         text-align: center;
+        max-width: 80%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
     }
 
     .titulo {
@@ -16,13 +25,11 @@
     .bajada {
         margin: 10px;
         font-size: 1rem;
+        max-width: 80%;
     }
 
     .historia {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        align-items: center;
+   
     }
 
     .taller {
@@ -30,7 +37,7 @@
         height: 30%;
         flex-direction: row;
         justify-content: center;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
 
         img {
             border-radius: 8px;

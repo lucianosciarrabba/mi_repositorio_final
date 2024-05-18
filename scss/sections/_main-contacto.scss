@@ -18,6 +18,24 @@
     .datos {
         margin: 20px;
         grid-area: 1 / 2 / 5 / 3;
+
+
+
+        .informacion {
+            display: flex;
+            flex-direction: column;
+
+            .inform {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+
+                h3, h4{
+                    margin-left: 10px;
+                    padding: 10px;
+                }
+            }
+        }
     }
 
     .mapa {
