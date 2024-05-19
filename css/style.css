@@ -131,6 +131,8 @@ main {
 .main-servicios {
   text-align: center;
   color: #241503; }
+  .main-servicios h1, .main-servicios h4 {
+    padding: 20px; }
   .main-servicios h2 {
     margin: 30px;
     text-decoration: underline;
