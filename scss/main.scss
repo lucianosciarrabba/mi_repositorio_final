@@ -150,12 +150,14 @@ main {
         .taller {
             display: flex;
             flex-wrap: wrap;
+            flex-direction: column;
             justify-content: center;
             
             img {
                 height: 30%;
                 border-radius: 8px;
                 margin: 10px;
+                height: 55vw;
             }
 
         }

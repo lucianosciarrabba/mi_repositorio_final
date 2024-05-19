@@ -101,7 +101,8 @@ main {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  align-items: center; }
+  align-items: center;
+  height: auto; }
   .main-historia .historia {
     font-style: italic;
     text-align: center;
@@ -124,7 +125,8 @@ main {
     flex-wrap: nowrap; }
     .main-historia .taller img {
       border-radius: 8px;
-      margin: 10px; }
+      margin: 10px;
+      height: 30vw; }
 
 .main-servicios {
   text-align: center;
@@ -301,11 +303,13 @@ footer h6 {
     .main-historia .taller {
       display: flex;
       flex-wrap: wrap;
+      flex-direction: column;
       justify-content: center; }
       .main-historia .taller img {
         height: 30%;
         border-radius: 8px;
-        margin: 10px; }
+        margin: 10px;
+        height: 55vw; }
   .wapp {
     position: fixed;
     top: 90%;
