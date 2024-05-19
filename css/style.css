@@ -302,9 +302,9 @@ footer h6 {
       justify-content: center; }
     .main-historia .taller {
       display: flex;
-      flex-wrap: wrap;
+      flex-wrap: nowrap;
       flex-direction: column;
-      justify-content: center; }
+      justify-content: flex-start; }
       .main-historia .taller img {
         height: 30%;
         border-radius: 8px;

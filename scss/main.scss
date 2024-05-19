@@ -149,9 +149,9 @@ main {
 
         .taller {
             display: flex;
-            flex-wrap: wrap;
+            flex-wrap: nowrap;
             flex-direction: column;
-            justify-content: center;
+            justify-content: flex-start;
             
             img {
                 height: 30%;
